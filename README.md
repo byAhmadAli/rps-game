@@ -12,7 +12,7 @@ $ git clone https://github.com/byAhmadAli/rps-game.git
 
 Change the directory.
 ```bash
-$ cd react-todo-app
+$ cd rps-game
 ```
 
 Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
