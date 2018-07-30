@@ -2,20 +2,12 @@
 
 As a frequent games player I would like to play rock, paper, scissors so that I can waste an hour of my day having fun.
 
-## Usage
-
-```sh
-git clone https://github.com/michaelcheng429/react-tutorial-todos
-cd rps-game
-npm install
-npm run start
-```
 
 ## Instructions
 
 First clone repository.
 ```bash
-$ git clone https://github.com/kabirbaidhya/react-todo-app.git
+$ git clone https://github.com/byAhmadAli/rps-game.git
 ```
 
 Change the directory.
