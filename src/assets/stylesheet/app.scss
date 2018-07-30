@@ -1,0 +1,54 @@
+@import "vars";
+@import "components/_animations/_scroll-bg";
+@import "components/pop-up";
+
+body, html{
+	margin: 0;
+	padding: 0;
+	font-family: 'Exo', sans-serif;
+	background: url('../images/bg.png');
+	-webkit-animation:100s scroll-bg infinite linear;
+	-moz-animation:100s scroll-bg infinite linear;
+	-o-animation:100s scroll-bg infinite linear;
+	-ms-animation:100s scroll-bg infinite linear;
+	animation:100s scroll-bg infinite linear;
+}
+
+*{
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+.container{
+	width: $container;
+	margin: 0 auto;
+	position: relative;
+	&:before, &:after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+	h1{
+		text-align: center;
+	}
+	h2{
+		margin-bottom: 0;
+	}
+	p{
+		margin-top: 0;
+	}
+}
+
+.player-side{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+
+.boot-side{
+	width: 50%;
+	float: left;
+	text-align: right;
+}

@@ -1,0 +1,159 @@
+.pop-up{
+	width: $pop-up-width;
+	height: $pop-up-height;
+	background-color: #fff;
+    margin: auto;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 50px;
+    border: 5px solid $primary-color;
+    input[type="text"]{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		border: none;
+		font-size: 42px;
+		background-color: transparent;
+		padding: 30px 25px;
+		color: $primary-color;
+		outline: none;
+    }
+    button{
+    	outline: none;
+		position: absolute;
+		bottom: -25px;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 150px;
+		background-color: $primary-color;
+		border: 3px solid #fff;
+		height: 50px;
+		border-radius: 50px;
+		font-size: 18px;
+		font-weight: bold;
+		color: #fff;
+		cursor: pointer;
+		&:hover{
+			background-color: darken($primary-color, 5%)
+		}
+		&:disabled{
+			background-color: $disabled-color;
+			cursor: not-allowed;
+		}
+		&.reset-btn{
+			width: 50px;
+			height: 50px;
+			left: auto;
+			background-color: $secondary-color;
+			padding: 0;
+			&:hover{
+				background-color: darken($secondary-color, 5%)
+			}
+		}
+    }
+    h2{
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: -165px;
+		text-align: center;
+		&.win{
+			color: $win-color;
+		}
+		&.lost{
+			color: $lost-color;
+		}
+	}
+	p{
+		position: absolute;
+		top: -47px;
+		margin: 0;
+		background: #ff6334;
+		padding: 10px 20px;
+		border-radius: 20px;
+		border: 3px solid #fff
+	}
+    .radio-button-container{
+    	width: 438px;
+    	margin: 10px auto;
+    	.btn-container{
+    		width: 300px;
+    		position: absolute;
+    		bottom: 0;
+    		left: 0;
+    		right: 0;
+    		margin: auto;
+    	}
+    	.radio-button{
+	    	width: 146px;
+	    	height: 146px;
+	    	float: left;
+	    	label{
+				background-image: url('../images/hand.png');
+				background-repeat: no-repeat;
+				display: block;
+				height: 100%;
+				transform: rotate(-90deg);
+				border-radius: 30px;
+				cursor: pointer;
+				&.scissors-player{
+			        background-position: 0 40px;
+			    }
+			    &.rock-player{
+			        background-position: 0 -250px;
+			    }
+			    &.paper-player{
+			        background-position: 0 -110px;
+			    }
+	    	}
+	    	input[type="radio"]{
+	    		display: none;
+	    		&:checked{
+		    		& + label{
+		    			background-color: #eee;
+		    		}
+		    	}
+	    	}
+	    }
+    }
+    &.choose{
+    	height: 200px;
+    }
+    &.hand-positions-container{
+    	margin-bottom: 10%;
+    	h2{
+    		top: -245px;
+    	}
+    }
+    &.startup{
+    	.radio-button-container{
+    		width: 292px;
+    		.radio-button{
+    			label{
+    				background: none;
+    				transform: rotate(0);
+    				text-align: center;
+    				i{
+						color: $primary-color;
+						font-size: 70px;
+						padding: 38px 28px;
+    				}
+    			}
+    		}
+    	}
+    }
+    &.boot{
+    	width: 300px;
+		border: none;
+		background: none;
+		height: 0;
+    	h2{
+    		top: -225px;
+    	}
+    }
+}

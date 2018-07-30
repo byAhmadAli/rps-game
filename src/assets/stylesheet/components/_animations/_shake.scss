@@ -1,0 +1,61 @@
+// player
+@-webkit-keyframes shake-player {
+	0%, 100% {-webkit-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-webkit-transform: translateY(-10px) rotate(-10deg);} 
+	30%, 60%, 90% {-webkit-transform: translateY(10px) rotate(5deg);} 
+}
+
+@-moz-keyframes shake-player {
+	0%, 100% {-moz-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-moz-transform: translateY(-10px) rotate(-10deg);} 
+	30%, 60%, 90% {-moz-transform: translateY(10px) rotate(5deg);} 
+}
+
+@-o-keyframes shake-player {
+	0%, 100% {-o-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-o-transform: translateY(-10px) rotate(-10deg);} 
+	30%, 60%, 90% {-o-transform: translateY(10px) rotate(5deg);} 
+}
+
+@-ms-keyframes shake-player {
+	0%, 100% {-ms-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-ms-transform: translateY(-10px) rotate(-10deg);} 
+	30%, 60%, 90% {-ms-transform: translateY(10px) rotate(5deg);} 
+}
+
+@keyframes shake-player { 
+	0%, 100% {transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {transform: translateY(-10px) rotate(-10deg);} 
+	30%, 60%, 90% {transform: translateY(10px) rotate(5deg);} 
+}
+
+// boot
+@-webkit-keyframes shake-boot {
+	0%, 100% {-webkit-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-webkit-transform: translateY(-10px) rotate(10deg);} 
+	30%, 60%, 90% {-webkit-transform: translateY(10px) rotate(-5deg);} 
+}
+
+@-moz-keyframes shake-boot {
+	0%, 100% {-moz-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-moz-transform: translateY(-10px) rotate(10deg);} 
+	30%, 60%, 90% {-moz-transform: translateY(10px) rotate(-5deg);} 
+}
+
+@-o-keyframes shake-boot {
+	0%, 100% {-o-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-o-transform: translateY(-10px) rotate(10deg);} 
+	30%, 60%, 90% {-o-transform: translateY(10px) rotate(-5deg);} 
+}
+
+@-ms-keyframes shake-boot {
+	0%, 100% {-ms-transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {-ms-transform: translateY(-10px) rotate(10deg);} 
+	30%, 60%, 90% {-ms-transform: translateY(10px) rotate(-5deg);} 
+}
+
+@keyframes shake-boot { 
+	0%, 100% {transform: translateY(0) rotate(0deg);} 
+	10%, 40%, 70% {transform: translateY(-10px) rotate(10deg);} 
+	30%, 60%, 90% {transform: translateY(10px) rotate(-5deg);} 
+}
