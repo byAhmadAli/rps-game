@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors
 
 As a frequent games player I would like to play rock, paper, scissors so that I can waste an hour of my day having fun.
-
+[`Live Demo`](https://byahmadali.github.io/rps-game/index.html) 
 
 ## Instructions
 
